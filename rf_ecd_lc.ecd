@@ -1,0 +1,78 @@
+{
+  "EsriClassifierDefinitionFile" : 0,
+  "FileVersion" : 3,
+  "NumberDefinitions" : 1,
+  "Definitions" : [
+    {
+      "Classifier" : "RandomTrees",
+      "NumberClasses" : 5,
+      "RasterIsSegmented" : false,
+      "NumberBands" : 12,
+      "Classes" : [
+        {
+          "ClassValue" : 1,
+          "ClassName" : "Urban",
+          "Red" : 214,
+          "Green" : 174,
+          "Blue" : 82
+        },
+        {
+          "ClassValue" : 2,
+          "ClassName" : "Agriculture",
+          "Red" : 132,
+          "Green" : 225,
+          "Blue" : 108
+        },
+        {
+          "ClassValue" : 3,
+          "ClassName" : "Rangeland",
+          "Red" : 144,
+          "Green" : 73,
+          "Blue" : 241
+        },
+        {
+          "ClassValue" : 4,
+          "ClassName" : "Forest",
+          "Red" : 41,
+          "Green" : 35,
+          "Blue" : 190
+        },
+        {
+          "ClassValue" : 5,
+          "ClassName" : "Water",
+          "Red" : 241,
+          "Green" : 187,
+          "Blue" : 233
+        }
+      ],
+      "TrainingSampleFile" : "LC_Training_Poly",
+      "Raster1" : "Capstone_Final_Mosaic.tif",
+      "MaxNumTrees" : 50,
+      "MaxTreeDepth" : 30,
+      "MaxNumSamplesPerClass" : 10000,
+      "CrossValidationRate" : 0.99769028872251508,
+      "NumberTrees" : 1,
+      "VariableImportance" : [
+        0.00088941594667229097,
+        0.09664986783487009,
+        0.077675660972527871,
+        0.012451823486242712,
+        0.088645120705944574,
+        0.031426030348584919,
+        0,
+        0.018084790100762683,
+        0.0080047434036353005,
+        0.12333234833051455,
+        0.086866287182785537,
+        0.45597391168745949
+      ],
+      "SizeOfByteArray" : 1195,
+      "MaxStringSizeUsed" : 1024,
+      "NumberOfStrings" : 2,
+      "ByteArrayAsArrayOfStrings" : [
+        "H4sIAAAAAAAACuVZzY7bNhC-B8g78NKbl5hfcuhb7-0DFEVhaL3ajQDZciV5kaDouxeybK226WJXiS0njWAfSIrkfN_McDijn377-ddflujh_bubm5v376pdvl0_rjblqm7rPG-W79855-6repO1S8eHVtGs1mXWNMV9kddLh4fOx6xeZWW5dMhDe13tt-3SIR16qvpu9XnvOmuf9R462zortsX2YbXL6mxzFMI5t2_yVbOv6-oha_Nm6eA0sMk-rtZZmz9UddENoJ5G6vyhzpumqLarbL3e19n609KBH0-8y3fth6WjYc6m2K6abLMr80GsYad1XTXN6jEri7us7Va9r8q7sSjbbN0Wj3kHauh-KKvbrDzgLO4-jik7NH93sHC4cLRwvHCycLpwYeHiwtnCpYXDbhjdH8Os9tMuP0579Xea1xFd3TdvnfbC74Ry1HdavzOJVZnd5mXzGaTjO5uiaTq1Nvvbpj285BcT_8eVqup2ldd1VXfKBOAUQUGMkCmSkT0RvNlVdZtt1z1hHgDMkqCmkLr1IIUgySLwoRVjiBoCpRFSD0iiaMR2eMcsiCJRP59RKAAjniQENDCJCcKzNcAAJAqHw4tIzEyshwZYsBDIknQtUU2RE_ER6rZ3xME1Bq90zt0MOzi3re5GI5-P98_R2AdzHZ7HrNznS8eDa4wWrje9x_fm2jv4-Gl2ZdH-e--jBO6vTg_Ljp8_91lZtJ-WyoG8KkaNhqQLV-ZLZCPv_n6j-PiS-PK6-PK1e1yKovTEECsmH5QNTBPHniJFsLdTRC-Jj6-Lj18ifnwSHwGDhxATE5IlCHQAwBrj2wHwSwDgdQDwRSY64t_UE0UKIiCUgllvpCGp1zcjkLlV0AWKEwRKPqbuIY4QQCX2OkAIEyDo-ZQwfY_pNE1XxcWMaaQKtu78Vxm8ofdnCQL-GpqY7g4heAIAJIIIPJzZkWyCLYUZbGmOPa6pCTJ_oJ4gTIgFYQYPm4N5vuaBmlS9oYEKpkRox6gslPDtmpC5",
+        "LxU8sp1oniJiTM8AoDKdIyJMR_BNehgie-ziZkhiJITpdNbJD3jWzX6FoSdNmCQvGjlFCTDcgikFPUPUvJT8OpKfkxcOFFN3gzyKzxj1e7GjS3E0OlSNg0dUwSgGMrBEGnACS3FuBDZGoD6ZWcIAqKe7HSeecs22uQHIE4CQOg0k4QQWEgqEXgUWYAKCNIOhptnD_zOWelpQZUKdAma4eb28yRm5t2tevWKU_8o_hHWKk53RfK66R_y-cpzpFaqL1SCfLEoSqBft6iJD0EHBKUGH5xZ_dLVgTsGTpKg6KhCKhrOUpy4FYBR00BhPByoH_31kH_T6HvStcj-6V6Om2HPfVeB_PO75fHtMzy7VzGOCmNSSyclz0XRKDi6zIxgFY9SYPBFAohh5gMAgfJ0ywnQHGMwfzlK_PKP9hxnsX69rPUE8JbDEOoq9rHyWtPhSEEbf5rRL6w27z7whyFDN7wLxOVLWSyEYBV-yowNQV-w6Q5Z6RgewGRxgdu5HZw9FOB0-PKGC_3-hfo7zbfZvfTLKK6TXLhtPqZ7M8Qn0K1O6fwCRYloDKiYAAAAA"
+      ]
+    }
+  ]
+}
